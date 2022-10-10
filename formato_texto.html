@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Formateando texto</title>
+    </head>
+    <body>
+        <h1>Formateando texto</h1>
+        <!--La etiqueta <p> es un elemento de tipo bloque, por lo tanto aunque coloquemos en el editor de texto dos etiquetas <p> en la misma linea en la pagina estara una abajo de la otra-->
+        <!--Esto es debido a la naturaleza de los elementos de tipo bloque-->
+        <!--Por lo tanto siempre tenemos que tener en cuenta que tipo de elemento tenemos, ya sea de tipo bloque o linea-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, distinctio! Sapiente rem ducimus laborum enim.</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos alias culpa temporibus, nam velit reprehenderit?</p>
+        <!--Un html entity es un pedazo de texto ("String") que comienza con anbersan "&" y termina con punto y coma ";" -->
+        <!-- &#8198; es el codigo de html que utilizamos para dejar espacios en nuestro parrafo y el navegador o interprete no ignore nuestros espacios -->
+        <p>Añadimos &#8198; &#8198; &#8198; &#8198; espacios a nuestro parrafo con HTML entries</p>
+
+        <!-- Añadir tabulaciones o saltos de linea -->
+        <p>Texto sin salto de linea
+            aunque en el editor si coloquemos los saltos de linea
+            el interprete o navegador pasara a ignorarlo
+        </p>
+        <hr>
+        <!-- Forma de añadir tabulaciones o saltos de linea con hmtl entity -->
+        <!-- Con la etiqueta br ya puedes hacer el salto de linea -->
+        <p>Texto con salto de linea
+            por lo tanto ya puedes notar que si existe este salto de linea<br>
+            el navegador ya respeta los saltos de linea que añadimos
+        </p>
+        <hr>
+        <!-- mostrar texto en negrita -->
+        <b>Esto es un texto en negrita con la etiqueta (b)</b>
+        <br>
+        <strong>Esto es otro texto en negrita pero con la etiqueta (strong)</strong>
+        <hr>
+        <!-- Elementos en cursiva o italica -->
+        <i>Soy un elemento en cursiva o italica</i><br>
+        <em>Soy tambien un elemento en cursiva o italica</em>
+        <hr>
+        <!-- Utilizaremos una etiqueta para marcar con amarillo el texto -->
+        <p>Hola este es un texto con la ultima palabra en <mark>amarillo</mark></p>
+        <hr>
+        <!-- Hacer la letra mas pequeña -->
+        <p><small>Al enviar el formulario, aceptas las politicas y reglas de la pagina</small></p>
+    </body>
+</html>
+
