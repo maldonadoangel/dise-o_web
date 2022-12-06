@@ -16,7 +16,8 @@
         </header>
 
         <!-- Barra de navegacion -->
-        <nav>
+        <!--Los id solo se pueden usar una vez en el documento-->
+        <nav id="navegacion">
         <a href="#" target="_blank">Inicio</a>
         <a href="/quienes_somos.html" target="_blank">Quienes somos</a>
         <a href="#" target="_blank">Productos</a>
@@ -140,27 +141,35 @@
         <footer>
             <div>
                 <h3>Categorias</h3>
+                <!--las clases son reutilizables-->
+                <nav class="navegacion-footer">
                 <a href="#">Nike</a>
                 <a href="#">Adidas</a>
                 <a href="#">Puma</a>
                 <a href="#">Natación</a>
                 <a href="#">Gimnasio</a>
+                </nav>
             </div>
 
             <div>
                 <h3>Sobre Nosotros</h3>
-                <a href="#">Historia</a>
-                <a href="#">Visión</a>
-                <a href="#">Misión</a>
-                <a href="#">Politicas de Garantia</a>
-                <a href="#">Terminos del servicio</a>
+                <nav class="navegacion-footer">
+                    <a href="#">Historia</a>
+                    <a href="#">Visión</a>
+                    <a href="#">Misión</a>
+                    <a href="#">Politicas de Garantia</a>
+                    <a href="#">Terminos del servicio</a>
+                </nav>
             </div>
 
             <div>
                 <h3>Soporte</h3>
-                <a href="#">Preguntas Frecuentes</a>
-                <a href="#">Soporte en linea</a>
-                <a href="#">Horarios</a>
+                <nav>
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Soporte en linea</a>
+                    <a href="#">Horarios</a>
+                </nav>
+                
             </div>
             <p><small>Todos los derechos reservados, tienda deportiva 2022</small></p>
         </footer>

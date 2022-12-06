@@ -10,3 +10,26 @@ h1 span{
 h2 span{
     color:#3E667A;
 }
+
+/* Los pseudoselectores son los encargados de escoger
+    directamente que elemento hijo deseamos modificar
+    ya sea con first-child para el primer elemento hijo
+    last-child para el ultimo elemento hijo
+    o nth-child(posicion del elemento hijo)
+*/
+/* nav a:nth-child(3){
+    text-transform: uppercase;
+    font-size: 50px;
+} */
+
+
+nav a{
+    text-transform: uppercase;
+}
+
+nav a{
+    text-transform: uppercase;
+}
+.navegacion-footer a{
+    text-transform: lowercase;
+}
