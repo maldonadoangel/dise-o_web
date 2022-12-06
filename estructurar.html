@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <!--El head guarda información meta-->
         <meta charset="UTF-8">
         <title>Estructura de pagina web</title>
+        <!--Agregamos en enlace del css-->
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <!--Esta es la estructura de una pagina web-->
         <!--Encabezado de la pagina web-->
         <header>
-            <h1>Tienda deportiva</h1>
+            <!--Se recomienda utilizar span cuando queremos modificar por medio del css-->
+            <h1>Tienda <span>deportiva</span></h1>
         </header>
 
         <!-- Barra de navegacion -->
         <nav>
         <a href="#" target="_blank">Inicio</a>
-        <a href="#" target="_blank">Quienes somos</a>
+        <a href="/quienes_somos.html" target="_blank">Quienes somos</a>
         <a href="#" target="_blank">Productos</a>
         <a href="#" target="_blank">Contacto</a>
         </nav>
 
         <!--Seccion de categorias-->
         <section>
-            <h2>Categoria de nuestros productos</h2>
+            <h2>Categoria de <span>nuestros productos</span></h2>
             <div>
             <img src="/img/baseball.jpg" alt="Producto deportivo">
             <a href="/baseball.html">Baseball</a>
