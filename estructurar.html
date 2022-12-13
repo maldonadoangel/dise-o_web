@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>Estructura de pagina web</title>
         <!--Agregamos en enlace del css-->
+        <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
@@ -12,16 +13,16 @@
         <!--Encabezado de la pagina web-->
         <header>
             <!--Se recomienda utilizar span cuando queremos modificar por medio del css-->
-            <h1>Tienda <span>deportiva</span></h1>
+            <h1 class="nombre-sitio">Tienda <span>deportiva</span></h1>
         </header>
 
         <!-- Barra de navegacion -->
         <!--Los id solo se pueden usar una vez en el documento-->
-        <nav id="navegacion">
-        <a href="#" target="_blank">Inicio</a>
-        <a href="/quienes_somos.html" target="_blank">Quienes somos</a>
-        <a href="#" target="_blank">Productos</a>
-        <a href="#" target="_blank">Contacto</a>
+        <nav class="navegacion">
+            <a href="#" target="_blank">Inicio</a>
+            <a href="#" target="_blank">Productos</a>
+            <a href="#" target="_blank">Contacto</a>
+            <a href="/quienes_somos.html" target="_blank">Quienes somos</a>
         </nav>
 
         <!--Seccion de categorias-->
@@ -43,7 +44,7 @@
             </div>
         </section>
         <!--Seccion sobre nosotros-->
-        <section>
+        <section class="sobre-nosotros">
             <div>
                 <h2>Sobre Nosotros</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia debitis tenetur facere praesentium quasi. Dignissimos iusto aut obcaecati incidunt reiciendis omnis, doloremque provident illum, unde, harum fugit veniam quisquam corrupti!</p>
